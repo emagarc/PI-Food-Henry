@@ -1,0 +1,58 @@
+.backButton {
+  align-items: center;
+  margin-top: 1.5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 5px 5px 5px 5px;
+  border: 4px outset #ffffff;
+  font-size: 35px;
+  color: orange;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  outline: none;
+  background-color: rgb(201, 151, 102);
+  box-shadow: 5px 2px 15px -2px rgba(81, 81, 81, 0.89);
+  text-shadow: 1px 1px 1px #474747;
+  text-decoration: none;
+  cursor: pointer;
+  letter-spacing: 1px;
+  opacity: 1;
+  margin: 1%;
+}
+.link {
+  margin-top: 1%;
+  color: white;
+  text-decoration: none;
+  align-items: center;
+}
+.recipeIdContainer {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin: 0 auto;
+  width: 390px;
+  background-color: rgb(201, 151, 102);
+  padding: 20px;
+  border-radius: 3px;
+  font-size: 1.3em;
+  color: white;
+  text-shadow: 1px 1px 1px rgb(142, 32, 32);
+  font-weight: bold;
+  border: 8px outset #ffffff;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.title {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 32px;
+  color: white;
+  text-shadow: 1px 1px 1px rgb(142, 32, 32);
+  text-align: left;
+  object-fit: contain;
+}
+
+.title2 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 15.5px;
+  color: white;
+  text-align: left;
+  object-fit: contain;
+  text-shadow: 1px 1px 1px grey;
+}

@@ -1,0 +1,51 @@
+.buttonLeft {
+  font-size: 15px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: white;
+  border: 3.5px outset rgb(255, 255, 255);
+  border-radius: 5px 5px 5px 5px;
+  flex-direction: row;
+  background-color: rgb(201, 151, 102);
+  opacity: 1;
+  position: relative;
+  cursor: pointer;
+  letter-spacing: 2px;
+  transition: all ease 0.5s;
+  font-weight: bold;
+}
+
+.buttonRight {
+  font-size: 15px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: white;
+  border: 3.5px outset rgb(255, 255, 255);
+  border-radius: 5px 5px 5px 5px;
+  position: relative;
+  flex-direction: row;
+  outline: none;
+  background-color: rgb(201, 151, 102);
+  opacity: 1;
+  cursor: pointer;
+  letter-spacing: 2px;
+  text-decoration: none;
+  transition: all ease 0.5s;
+  font-weight: bold;
+}
+
+.directionComp {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  padding: 5px;
+}
+
+.downBarContainer {
+  width: 102%;
+  height: 5%;
+  left: -5%;
+  bottom: -5%;
+  flex-direction: row;
+  position: absolute;
+  opacity: .9;
+  justify-content: space-between;
+}

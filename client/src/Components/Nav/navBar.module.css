@@ -1,0 +1,126 @@
+.navBarContainer {
+  background-color: rgba(191, 57, 35, 0.17);
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  align-items: center;
+  padding: 0.2em;
+  box-sizing: border-box;
+  opacity: 1;
+  padding-bottom: 0.3em;
+  justify-content: space-around;
+  align-self: flex-start;
+}
+
+.link2 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: center;
+  border: 6px outset rgb(255, 255, 255);
+  height: 10px;
+  width: 90%;
+
+  background-color: rgb(253, 251, 251);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  box-sizing: content-box;
+  color: #ffffff;
+
+  opacity: 1;
+  font-size: 15px;
+  text-align: left;
+  text-shadow: 2px 2px 2px #474747;
+}
+
+.filtersContainer {
+  text-align: center;
+  border: 6px outset rgba(47, 27, 5, 0.475);
+  height: 10px;
+  width: 90%;
+  top: 0;
+  left: 0;
+  background-color: rgba(47, 27, 5, 0.475);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  box-sizing: content-box;
+  color: white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  opacity: 1;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.selectContainer {
+  font-size: 15px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: rgba(207, 135, 135, 0.769);
+  border-radius: -10px;
+  margin: 0px;
+  padding: 1%;
+  outline: none;
+  background-color: none;
+  border: 0;
+  margin-left: 10px;
+  opacity: 1;
+  display: flex;
+}
+
+.typeDiet {
+  font-size: 15px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: brown;
+  border: 6px outset rgba(191, 57, 35, 0.17);
+  padding: 3%;
+  outline: none;
+  background-color: rgb(201, 151, 102);
+  border: 0;
+  opacity: 1;
+  display: flex;
+  box-shadow: 5px 2px 15px -2px rgba(81, 81, 81, 0.89);
+  text-shadow: 2px 2px 2px #474747;
+}
+
+.linkBackAndCreate {
+  color: white;
+  text-decoration-line: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.createButton {
+  height: 1;
+  font-size: 8px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: white;
+  border: 6px outset rgba(191, 57, 35, 0.17);
+  margin: 10px;
+  padding: -5%;
+  outline: none;
+  background-color: rgb(201, 151, 102);
+  border: 0;
+  margin-left: 15px;
+  opacity: 1;
+  display: flex;
+  box-shadow: 5px 2px 15px -2px rgba(81, 81, 81, 0.89);
+  position: relative;
+  cursor: pointer;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: all ease 0.5s;
+  font-weight: bold;
+  border: 8px double #ffffff;
+  border-radius: 0px 0px 21px 21px;
+}
+.createButton:hover {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  background: rgba(191, 57, 35, 0.17);
+}

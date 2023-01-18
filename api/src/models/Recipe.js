@@ -28,10 +28,14 @@ module.exports = (sequelize) => {
       type: DataTypes.STRING,
       allowNull: true
     },
-    diet: {
+    dietTypes: {
+      type: DataTypes.ARRAY(DataTypes.STRING),
+      allowNull: true
+    },
+    image: {
       type: DataTypes.STRING,
       allowNull: true
-    }
+    },
   });
 };
 
