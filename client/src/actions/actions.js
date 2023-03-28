@@ -48,7 +48,7 @@ export function orderAlphaRev() {
 }
 
 export function orderDiet(diet) {
-  return async function (dispatch) {
+  return function (dispatch) {
     return fetch("http://localhost:3001/recipes")
       .then((res) => res.json())
       .then((data) =>
